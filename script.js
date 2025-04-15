@@ -31,16 +31,21 @@ console.log("Leftover amount: $" + leftoverAmount.toFixed(2)); // Output the lef
 Convert a dog’s age to human years
 (1 dog year = 7 human years)
 */
-
+let dogage = 7; // Dog's age in years
+let humanYears = dogage * 7; // Convert dog years to human years
+console.log("Dog's age in human years: " + humanYears); // Output the dog's age in human years
 
 
 // 4. Combine and Print
 // Create variables for your name, favorite food, and a hobby.
 // Print a sentence using all 3.
-
+let myName = "Ellene"; // Your name
+let favoriteFood = "sushi"; // Your favorite food
+let hobby = "Hiking"; // Your hobby 
+console.log("My name is " + myName + ", my favorite food is " + favoriteFood + ", and I enjoy " + hobby + "."); // Output the sentence
 
 
 // 🌟 BONUS (Optional)
 // Use prompt() to ask for the user's name, then greet them.
-// let name = prompt("What's your name?");
-// console.log("Hello, " + name + "!");
+let fullname = prompt("What's your name?");
+console.log("Hello, " + fullname + "!");
