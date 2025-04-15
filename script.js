@@ -5,10 +5,11 @@
 // Each guest gets 2 sandwiches. You have 12 guests.
 // Calculate total sandwiches needed.
 
-let a = 5 
-const a2 = 5
-console.log(a)
-console.log(a2)
+let guests = 12; // Number of guests
+let sandwichesPerGuest = 2; // Sandwiches per guest
+let totalSandwiches = guests * sandwichesPerGuest; // Total sandwiches needed
+console.log("Total sandwiches needed: " + totalSandwiches); // Output the result
+
 
 
 
@@ -18,7 +19,12 @@ console.log(a2)
 // 2. Movie Budget
 // You have $40. A movie ticket costs $9.50.
 // How many full tickets can you buy, and what's the leftover amount?
-
+let budget = 40; // Total budget
+let ticketPrice = 9.50; // Price of one movie ticket
+let ticketsCanBuy = Math.floor(budget / ticketPrice); // Full tickets that can be bought
+let leftoverAmount = budget % ticketPrice; // Leftover amount after buying tickets  
+console.log("Tickets you can buy: " + ticketsCanBuy); // Output the number of tickets
+console.log("Leftover amount: $" + leftoverAmount.toFixed(2)); // Output the leftover amount
 
 
 /* 3. Dog Age Converter
